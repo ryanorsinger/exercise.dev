@@ -1,0 +1,134 @@
+Anonymous UUID:       F350CEAF-08F6-9C2A-EC36-2DAC7AD27552
+
+Tue Feb  3 18:40:09 2015
+panic(cpu 2 caller 0xffffff8027292d80): "vm_object_compressor_pager_create(): object size 0xfffffffffffff000 >= 4GB\n"@/SourceCache/xnu/xnu-2422.92.1/osfmk/vm/vm_object.c:4570
+Backtrace (CPU 2), Frame : Return Address
+0xffffff80a058be40 : 0xffffff8027222fa9
+0xffffff80a058bec0 : 0xffffff8027292d80
+0xffffff80a058bf00 : 0xffffff802729fd73
+0xffffff80a058bfb0 : 0xffffff80272d7047
+
+BSD process name corresponding to current thread: kernel_task
+
+Mac OS version:
+13C1021
+
+Kernel version:
+Darwin Kernel Version 13.1.0: Wed Apr  2 23:52:02 PDT 2014; root:xnu-2422.92.1~2/RELEASE_X86_64
+Kernel UUID: E9CF78E2-1E9F-3B6F-81A4-FEE6C6D0E4D5
+Kernel slide:     0x0000000027000000
+Kernel text base: 0xffffff8027200000
+System model name: MacBookAir5,2 (Mac-2E6FAB96566FE58C)
+
+System uptime in nanoseconds: 25611304174444
+last loaded kext at 25297409106286: com.apple.driver.AppleIntelMCEReporter  104 (addr 0xffffff7fa9109000, size 49152)
+last unloaded kext at 23918694153240: com.apple.driver.AppleIntelMCEReporter    104 (addr 0xffffff7fa9109000, size 32768)
+loaded kexts:
+org.virtualbox.kext.VBoxNetAdp  4.3.14
+org.virtualbox.kext.VBoxNetFlt  4.3.14
+org.virtualbox.kext.VBoxUSB 4.3.14
+org.virtualbox.kext.VBoxDrv 4.3.14
+com.Cycling74.driver.Soundflower    1.6.6
+com.apple.driver.AppleIntelMCEReporter  104
+com.apple.filesystems.smbfs 2.0.1
+com.apple.filesystems.autofs    3.0
+com.apple.iokit.IOBluetoothSerialManager    4.2.3f10
+com.apple.driver.X86PlatformShim    1.0.0
+com.apple.driver.AGPM   100.14.15
+com.apple.driver.ApplePlatformEnabler   2.0.9d1
+com.apple.driver.AppleMikeyHIDDriver    124
+com.apple.driver.AppleUpstreamUserClient    3.5.13
+com.apple.driver.AppleHDA   2.6.0f1
+com.apple.driver.AudioAUUC  1.60
+com.apple.iokit.IOUserEthernet  1.0.0d1
+com.apple.driver.AppleSMCPDRC   1.0.0
+com.apple.driver.AppleSMCLMU    2.0.4d1
+com.apple.driver.AppleIntelHD4000Graphics   8.2.4
+com.apple.driver.AppleLPC   1.7.0
+com.apple.Dont_Steal_Mac_OS_X   7.0.0
+com.apple.driver.AppleHWAccess  1
+com.apple.driver.AppleThunderboltIP 1.1.2
+com.apple.driver.AppleBacklight 170.3.5
+com.apple.driver.AppleMCCSControl   1.1.12
+com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport 4.2.3f10
+com.apple.driver.AppleMikeyDriver   2.6.0f1
+com.apple.driver.AppleIntelFramebufferCapri 8.2.4
+com.apple.driver.AppleUSBTCButtons  240.2
+com.apple.driver.AppleUSBCardReader 3.4.1
+com.apple.driver.AppleUSBTCKeyboard 240.2
+com.apple.AppleFSCompression.AppleFSCompressionTypeDataless 1.0.0d1
+com.apple.AppleFSCompression.AppleFSCompressionTypeZlib 1.0.0d1
+com.apple.BootCache 35
+com.apple.driver.XsanFilter 404
+com.apple.iokit.IOAHCIBlockStorage  2.5.1
+com.apple.driver.AirPort.Brcm4331   700.20.22
+com.apple.driver.AppleUSBHub    666.4.0
+com.apple.driver.AppleAHCIPort  3.0.0
+com.apple.driver.AppleUSBEHCI   660.4.0
+com.apple.driver.AppleUSBXHCI   670.4.0
+com.apple.driver.AppleSmartBatteryManager   161.0.0
+com.apple.driver.AppleRTC   2.0
+com.apple.driver.AppleACPIButtons   2.0
+com.apple.driver.AppleHPET  1.8
+com.apple.driver.AppleSMBIOS    2.1
+com.apple.driver.AppleACPIEC    2.0
+com.apple.driver.AppleAPIC  1.7
+com.apple.driver.AppleIntelCPUPowerManagementClient 216.0.0
+com.apple.nke.applicationfirewall   153
+com.apple.security.quarantine   3
+com.apple.driver.AppleIntelCPUPowerManagement   216.0.0
+com.apple.kext.triggers 1.0
+com.apple.iokit.IOSerialFamily  10.0.7
+com.apple.driver.DspFuncLib 2.6.0f1
+com.apple.vecLib.kext   1.0.0
+com.apple.iokit.IOAudioFamily   1.9.5fc2
+com.apple.kext.OSvKernDSPLib    1.14
+com.apple.iokit.IOBluetoothFamily   4.2.3f10
+com.apple.driver.AppleHDAController 2.6.0f1
+com.apple.iokit.IOHDAFamily 2.6.0f1
+com.apple.iokit.IOSurface   91
+com.apple.driver.X86PlatformPlugin  1.0.0
+com.apple.driver.IOPlatformPluginFamily 5.7.0d10
+com.apple.driver.AppleSMC   3.1.8
+com.apple.driver.AppleBacklightExpert   1.0.4
+com.apple.iokit.IOBluetoothHostControllerUSBTransport   4.2.3f10
+com.apple.driver.AppleSMBusController   1.0.11d1
+com.apple.driver.AppleSMBusPCI  1.0.12d1
+com.apple.iokit.IONDRVSupport   2.4.1
+com.apple.iokit.IOAcceleratorFamily2    98.14
+com.apple.AppleGraphicsDeviceControl    3.4.35
+com.apple.iokit.IOGraphicsFamily    2.4.1
+com.apple.iokit.IOSCSIBlockCommandsDevice   3.6.6
+com.apple.iokit.IOUSBMassStorageClass   3.6.0
+com.apple.iokit.IOSCSIArchitectureModelFamily   3.6.6
+com.apple.driver.AppleUSBMultitouch 240.9
+com.apple.iokit.IOUSBHIDDriver  660.4.0
+com.apple.driver.AppleThunderboltDPInAdapter    3.1.7
+com.apple.driver.AppleThunderboltDPAdapterFamily    3.1.7
+com.apple.driver.AppleThunderboltPCIDownAdapter 1.4.5
+com.apple.driver.AppleUSBMergeNub   650.4.0
+com.apple.driver.AppleUSBComposite  656.4.1
+com.apple.driver.AppleThunderboltNHI    2.0.1
+com.apple.iokit.IOThunderboltFamily 3.2.7
+com.apple.iokit.IO80211Family   630.35
+com.apple.iokit.IONetworkingFamily  3.2
+com.apple.iokit.IOUSBUserClient 660.4.2
+com.apple.iokit.IOAHCIFamily    2.6.5
+com.apple.iokit.IOUSBFamily 675.4.0
+com.apple.driver.AppleEFINVRAM  2.0
+com.apple.driver.AppleEFIRuntime    2.0
+com.apple.iokit.IOHIDFamily 2.0.0
+com.apple.iokit.IOSMBusFamily   1.1
+com.apple.security.sandbox  278.11
+com.apple.kext.AppleMatch   1.0.0d1
+com.apple.security.TMSafetyNet  7
+com.apple.driver.AppleKeyStore  2
+com.apple.driver.DiskImages 371.1
+com.apple.iokit.IOStorageFamily 1.9
+com.apple.iokit.IOReportFamily  23
+com.apple.driver.AppleFDEKeyStore   28.30
+com.apple.driver.AppleACPIPlatform  2.0
+com.apple.iokit.IOPCIFamily 2.9
+com.apple.iokit.IOACPIFamily    1.4
+com.apple.kec.corecrypto    1.0
+com.apple.kec.pthread   1
